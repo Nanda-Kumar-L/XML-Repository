@@ -1,0 +1,17 @@
+#to slect a button
+//button
+
+# to select first button
+//button[@id='b1']
+
+# to select the button after the second text input field
+//input[@id='t2']/following-sibling::button
+
+#to select the text input field before button "Button 3"
+//button[text()='Button 3']/preceding-sibling::input[1]
+
+# button with specific text
+//button[text()='Button 2']
+
+# Button containing the char seq "B "
+//button[contains(text(), 'B ')]
